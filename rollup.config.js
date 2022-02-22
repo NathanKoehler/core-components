@@ -7,11 +7,11 @@ import rollupUrl from '@rollup/plugin-url';
 var componentPath
 var serverPath
 if ((process.env.BUILD !== 'production')) {
-    componentPath = "https://jay-vue-apps.ngrok.io/vue-apps/";
-    serverPath = "https://jay-core.ngrok.io/build/";
+    componentPath = "https://e563-69-1-192-73.ngrok.io/vue-apps/";
+    serverPath = "https://e563-69-1-192-73.ngrok.io/build/";
 } else {
-    componentPath = "https://resources.realitymedia.digital/vue-apps/";
-    serverPath = "https://resources.realitymedia.digital/core-components/";
+    componentPath = "https://www.natekoe.com/core-components/vue-apps/";
+    serverPath = "https://www.natekoe.com/core-components/core-components/";
 }
 
 export default ['index', 'main-room'].map((name, index) => ({

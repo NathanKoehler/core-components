@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "ngrok-paid": "ngrok start -config ~/.ngrok2/ngrok.yml -config ngrok-paid.yml --all",
-    "ngrok-free": "ngrok start -config ~/.ngrok2/ngrok.yml -config ngrok-free.yml --all",
+    "ngrok-free": "ngrok start -config C:/Users/flaku/.ngrok2/ngrok.yml -config ngrok-free.yml --all",
     "serve": "npm run buildDev && http-server --cors -a localhost -p 6000",
     "prepare": "husky install",
     "buildDev": "rollup -c --environment BUILD:dev",
