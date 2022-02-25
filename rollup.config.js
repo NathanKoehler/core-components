@@ -10,8 +10,8 @@ if ((process.env.BUILD !== 'production')) {
     componentPath = "https://e563-69-1-192-73.ngrok.io/vue-apps/";
     serverPath = "https://e563-69-1-192-73.ngrok.io/build/";
 } else {
-    componentPath = "https://nathankoehler.github.io/vue-apps/";
-    serverPath = "https://nathankoehler.github.io/core-components/";
+    componentPath = "https://www.natekoe.com/vue-apps/";
+    serverPath = "https://www.natekoe.com/core-components/";
 }
 
 export default ['index', 'main-room'].map((name, index) => ({
